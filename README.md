@@ -22,13 +22,13 @@
     [course_advisor]. 
     ```
 4.  **Run a Query:** Use the `recommend/2` predicate to get a course suggestion. Replace the interest keyword with one from the fact base (e.g., 'programming', 'cells', 'past').
-    ```prolog
+    prolog
     recommend('programming', Course).
-    ```
+    
     The output will be the suggested course:
-    ```
+    
     Course = computer_science.
-    ```
+    
 
 Instructions for Testing 
 To test the three main functional modules, try the following queries:
