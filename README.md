@@ -18,9 +18,9 @@
 1.  **Install Prolog:** Ensure you have an environment like SWI-Prolog installed on your computer.
 2.  **Download Files:** Save the `course_advisor.pl` file locally.
 3.  **Load the File:** Open your Prolog interpreter and use the following command to load the project file:
-    ```prolog
+     prolog
     [course_advisor]. 
-    ```
+   
 4.  **Run a Query:** Use the `recommend/2` predicate to get a course suggestion. Replace the interest keyword with one from the fact base (e.g., 'programming', 'cells', 'past').
     prolog
     recommend('programming', Course).
